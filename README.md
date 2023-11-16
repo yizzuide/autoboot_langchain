@@ -1,2 +1,2 @@
 # autoboot_langchain
-基于autoboot的扩展langchain多llm开发平台实现。
+基于autoboot扩展Langchain的多LLM开发平台实现。
