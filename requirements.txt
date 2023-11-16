@@ -1,0 +1,6 @@
+autoboot==0.0.2
+openai==0.27.9
+langchain==0.0.275
+tiktoken==0.4.0
+pymilvus==2.3.0
+qdrant-client==1.4.0

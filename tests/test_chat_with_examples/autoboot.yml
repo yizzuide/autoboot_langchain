@@ -1,0 +1,10 @@
+autoboot:
+  application:
+    name: env(APPLICATION_NAME)
+    module: api
+
+  langchain:
+    llm:
+      type: OpenAI
+    embeddings:
+      type: OpenAI

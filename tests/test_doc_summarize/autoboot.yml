@@ -1,0 +1,17 @@
+autoboot:
+  application:
+    name: env(APPLICATION_NAME)
+    module: api
+
+  langchain:
+    llm:
+      type: OpenAI
+    embeddings:
+      type: OpenAI
+    vector_store:
+      type: milvus
+      dimensions: 1536
+      collection_name: 
+      connection:
+        url: env(MILVUS_URL)
+        token: env(MILVUS_API_KEY)
